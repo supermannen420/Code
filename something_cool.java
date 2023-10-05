@@ -17,6 +17,7 @@ public class something_cool {
             Scanner OrdIn = new Scanner(System.in);
             String ord = OrdIn.nextLine();
            
+            System.out.println(ord);
 
 
 
