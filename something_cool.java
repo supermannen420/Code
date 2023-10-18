@@ -16,16 +16,23 @@ public class something_cool {
             System.out.println("skriv de som ska krypteras");
             Scanner OrdIn = new Scanner(System.in);
             String ord = OrdIn.nextLine();
-           
-            System.out.println(ord);
+
+            
+
+            System.out.println();
 
 
 
 
         }else if (nummber == 2){
             System.out.println("lös");
+
+            System.out.println("skriv de som ska lösas");
+            Scanner OrdIn = new Scanner(System.in);
+            String LösOrd = OrdIn.nextLine();
+
         }else{
-            System.exit(0);
+           // System.exit(0);
         }
 
 
